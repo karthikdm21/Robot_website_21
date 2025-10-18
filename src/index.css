@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-charcoal text-soft-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-electric-blue hover:bg-cyber-mint rounded-lg 
+           transition-colors duration-200 text-soft-white;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 bg-cyber-mint/20 hover:bg-cyber-mint/30 rounded-lg 
+           transition-colors duration-200 text-cyber-mint border border-cyber-mint/50;
+  }
+
+  .card {
+    @apply p-6 rounded-lg backdrop-blur-glass bg-space-blue/30 border border-neon-aqua/20;
+  }
+} 
