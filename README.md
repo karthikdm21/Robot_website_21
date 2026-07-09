@@ -67,7 +67,7 @@ You can add screenshots of the homepage and product pages here.
 Clone the repository
 
 ```bash
-git clone https://github.com/your-username/robot-shop.git
+git clone https://github.com/karthikdm21/robot-shop.git
 ```
 
 Navigate to the project
